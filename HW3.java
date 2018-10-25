@@ -5,6 +5,7 @@ import java.util.HashMap;
 /**
  * @author TODO: B0444220 Áé®a¸R
  * Try to write some comments for your codes (methods, 10 points)
+ * suit enumerate,shuffle(),getOneCard(),printCard() 
  */
 public class HW3 {
 	public static void main(String[] args) {
