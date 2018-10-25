@@ -3,7 +3,7 @@ import java.util.HashMap;
 //import java.util.Scanner;
 
 /**
- * @author TODO: please add student ID and name here
+ * @author TODO: B0444220 Áé®a¸R
  * Try to write some comments for your codes (methods, 10 points)
  */
 public class HW3 {
@@ -30,7 +30,7 @@ public class HW3 {
 		newCard.printCard();
 		Card newCard2=deck.getOneCard();
 		newCard2.printCard();
-		deck.shuffle();
+		deck.Shuffle();
 		if(isAllCardsCorrect(deck.getAllCards(),nDeck)){
 			if(!isShuffleWorking(deck,newCard,newCard2)){
 				System.out.println("All Card: Well done! But shufller is not working");
@@ -47,7 +47,7 @@ public class HW3 {
 	 * This method is used for checking your result, not a part of your HW3
 	 */
 	private static boolean isShuffleWorking(Deck deck,Card newCard,Card newCard2){
-		deck.shuffle();
+		deck.Shuffle();
 		boolean isCorrect=true;
 		if(newCard.getSuit().equals(newCard2.getSuit()) &&
 				newCard.getRank()==newCard2.getRank()){
